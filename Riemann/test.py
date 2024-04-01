@@ -35,3 +35,5 @@ print(v_i[2, :].max())
 t = np.array([[-1, -1], [2, -1]])
 print(w_i)
 print(w_i[:, 0])
+
+print(np.isclose(1, 1)[0])
